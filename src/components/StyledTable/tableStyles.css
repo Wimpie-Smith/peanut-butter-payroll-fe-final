@@ -1,0 +1,66 @@
+.table-container {
+    margin: 0 auto;
+    max-height: 300px; /* Adjust the height to fit approximately 10 rows */
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    position: relative;
+    max-width: 100%;
+    scrollbar-width: none;
+    
+}
+
+table {
+    max-width: 80%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+thead th {
+    background-color: #3492becb;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+tbody {
+    display: block;
+    max-height: 300px; /* Adjust this to ensure 10 rows are shown */
+    overflow-y: auto;
+    width: 100%;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #3492be4b;
+    cursor: pointer;
+    
+}
+
+table tr.selected {
+    background-color: #3492be80
+}

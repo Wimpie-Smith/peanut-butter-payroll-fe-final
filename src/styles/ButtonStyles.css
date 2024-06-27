@@ -1,0 +1,55 @@
+.add-user-btn {
+    background: #3492becb;
+    -webkit-border-radius: 31;
+    -moz-border-radius: 31;
+    border-radius: 31px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 13px;
+    padding: 4px 20px 6px 19px;
+    text-decoration: none;
+  }
+  
+  .add-user-btn:hover {
+    background: #3492be9c;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .cancel-btn {
+    background: rgba(250, 67, 67, 0.658);
+    -webkit-border-radius: 31;
+    -moz-border-radius: 31;
+    border-radius: 31px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 4px 20px 6px 19px;
+    text-decoration: none;
+  }
+  
+  .cancel-btn:hover {
+    background: #ff0000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .save-btn {
+    background: #3d3e3f;
+    -webkit-border-radius: 31;
+    -moz-border-radius: 31;
+    border-radius: 31px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 4px 20px 6px 19px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background: #0ba163;
+    text-decoration: none;
+    cursor: pointer;
+  }

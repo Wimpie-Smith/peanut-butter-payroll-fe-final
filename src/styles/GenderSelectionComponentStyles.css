@@ -1,0 +1,19 @@
+.gender-selection-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Ensure the container spans the full width */
+    border: 1px solid grey; /* Optional: to visualize the container */
+    padding: 10px; /* Optional: for spacing */
+  }
+  
+  
+  .gender-selection-label {
+    flex: 0 0 80%; /* Takes up 20% of the width */
+    text-align: left; /* Optional: align text to the left */
+    padding-right: 10px; /* Optional: space between the span and div */
+  }
+  
+  .gender-selection-content {
+    flex: 0 0 80%; /* Takes up 20% of the width */
+    padding: 5px; /* Optional: for spacing */
+  }
